@@ -1,13 +1,13 @@
-# dsa-lab
+# DSA Lab (C)
 
-## Implemented Data Structures
-- Stack (array implementation)
-- Queue (FIFO)
-- Heap (priority queue)\
-- Backtracking (N-Queens)
+## Data Structures
+- Stack (Array)
+- Queue (Circular + Linked List)
+- Heap (Min Heap, Max Heap)
 
-## Upcoming
-- Graph algorithms
+## Algorithms
+- N-Queens (Backtracking)
 
-## Language
-C
+## How to Run
+gcc filename.c
+./a.out
