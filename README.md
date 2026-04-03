@@ -1,81 +1,70 @@
-<h1 align="center">📚 DSA Lab in C</h1>
-<p align="center">Clean implementations of core Data Structures & Algorithms</p>
+# 🚀 DSA Lab (C)
+
+A structured collection of **Data Structures and Algorithms implementations in C**, built for academic use and interview preparation.
 
 ---
 
-## 🚀 Overview
+## 📂 Folder Structure
 
-This repository contains **well-structured implementations of fundamental DSA concepts** in C, designed for:
-
-* Academic labs
-* Interview preparation
-* Concept clarity
-
----
-
-## 🗂️ Project Structure
-
-```
-stack/           → Stack (Array Implementation)
-queue/           → Circular Queue, Linked List Queue
-heap/            → Min Heap, Max Heap
-backtracking/    → N-Queens Problem
+```plaintext
+dsa-lab/
+│── stack/
+│── queue/
+│── heap/
+│── backtracking/
+│── graphs/
 ```
 
 ---
 
-## ⚙️ Implementations
+## 📌 Topics Covered
 
-### 📌 Stack
+### 🔹 Data Structures
 
-* Push / Pop operations
-* Array-based implementation
+* Stack (Array Implementation)
+* Queue (Circular Queue, Linked List)
+* Heap (Min Heap, Max Heap)
 
-### 📌 Queue
+### 🔹 Algorithms
 
-* Circular Queue (optimized space usage)
-* Queue using Linked List
-
-### 📌 Heap
-
-* Min Heap (priority-based removal)
-* Max Heap (efficient max retrieval)
-
-### 📌 Backtracking
-
-* N-Queens problem
+* N-Queens (Backtracking)
+* Graph Traversal (BFS)
 
 ---
 
-## ▶️ Run Locally
+## 🔗 Graphs
+
+* Breadth First Search (BFS) using adjacency matrix
+
+---
+
+## ▶️ How to Run
 
 ```bash
-gcc file.c
+gcc filename.c
 ./a.out
 ```
 
 ---
 
-## 📊 Learning Highlights
+## 🧠 Key Concepts
 
-* Time & space complexity awareness
-* Recursive problem solving
-* Data structure design patterns
+* Efficient memory usage
+* Recursion and backtracking
+* Heap operations (insert, delete)
+* Queue optimizations
+* Graph traversal techniques
 
 ---
 
-## 📌 Future Improvements
+## 📈 Status
 
-* Sudoku Solver
-* Graph Algorithms (BFS/DFS)
-* Heap Sort
+✔ Core implementations completed
+✔ Includes fundamental DSA concepts
+⏳ Future scope: DFS, Sudoku Solver, Graph Algorithms
 
 ---
 
 ## 👨‍💻 Author
 
 **Yash**
-
----
-
-<p align="center">⭐ Star this repo if you find it useful</p>
