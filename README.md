@@ -1,60 +1,81 @@
-# 🚀 DSA Lab (C)
-
-A structured collection of **Data Structures and Algorithms implementations in C**, built for academic use and interview preparation.
+<h1 align="center">📚 DSA Lab in C</h1>
+<p align="center">Clean implementations of core Data Structures & Algorithms</p>
 
 ---
 
-## 📂 Folder Structure
+## 🚀 Overview
+
+This repository contains **well-structured implementations of fundamental DSA concepts** in C, designed for:
+
+* Academic labs
+* Interview preparation
+* Concept clarity
+
+---
+
+## 🗂️ Project Structure
 
 ```
-dsa-lab/
-│── stack/
-│── queue/
-│── heap/
-│── backtracking/
+stack/           → Stack (Array Implementation)
+queue/           → Circular Queue, Linked List Queue
+heap/            → Min Heap, Max Heap
+backtracking/    → N-Queens Problem
 ```
 
 ---
 
-## 📌 Topics Covered
+## ⚙️ Implementations
 
-### 🔹 Data Structures
+### 📌 Stack
 
-* Stack (Array)
-* Queue (Circular Queue, Linked List)
-* Heap (Min Heap, Max Heap)
+* Push / Pop operations
+* Array-based implementation
 
-### 🔹 Algorithms
+### 📌 Queue
 
-* N-Queens (Backtracking)
+* Circular Queue (optimized space usage)
+* Queue using Linked List
+
+### 📌 Heap
+
+* Min Heap (priority-based removal)
+* Max Heap (efficient max retrieval)
+
+### 📌 Backtracking
+
+* N-Queens problem
 
 ---
 
-## ▶️ How to Run
+## ▶️ Run Locally
 
 ```bash
-gcc filename.c
+gcc file.c
 ./a.out
 ```
 
 ---
 
-## 🧠 Key Concepts
+## 📊 Learning Highlights
 
-* Efficient memory usage
-* Recursion & backtracking
-* Heap operations (insert, delete)
-* Queue optimizations
+* Time & space complexity awareness
+* Recursive problem solving
+* Data structure design patterns
 
 ---
 
-## 📈 Status
+## 📌 Future Improvements
 
-✔ Core implementations completed
-⏳ More algorithms coming soon
+* Sudoku Solver
+* Graph Algorithms (BFS/DFS)
+* Heap Sort
 
 ---
 
 ## 👨‍💻 Author
 
-Maintained by **Yash**
+**Yash**
+
+---
+
+<p align="center">⭐ Star this repo if you find it useful</p>
